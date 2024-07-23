@@ -29,6 +29,7 @@ Scripts for SR201 dataset, SR21 dataset, and S101 datset
 Scripts used in biological datasets
 
 ### Mammal241
+Foley et al. placental mammal dataset
 
 - Phylogeny: whole-genome phylogenies and per-chromosome phylogenies by CASTER-site
 
