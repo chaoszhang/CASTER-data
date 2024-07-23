@@ -1,0 +1,184 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=82;
+	taxlabels
+	ailur_mel[&sci_name="Ailuropoda_melanoleuca",common_name="Giant panda"]
+	balae_acu[&sci_name="Balaenoptera_acutorostrata",common_name="Minke whale"]
+	bos_mut[&sci_name="Bos_mutus",common_name="Yak"]
+	bos_tau[&sci_name="Bos_taurus",common_name="Cow"]
+	calli_jac[&sci_name="Callithrix_jacchus",common_name="Marmoset"]
+	camel_fer[&sci_name="Camelus_ferus",common_name="Camel"]
+	canis_fam[&sci_name="Canis_lupus_familiaris",common_name="Dog"]
+	capra_hir[&sci_name="Capra_hircus",common_name="Goat"]
+	cavia_por[&sci_name="Cavia_porcellus",common_name="Guinea pig"]
+	cerat_sim[&sci_name="Ceratotherium_simum",common_name="Rhinoceros"]
+	chinc_lan[&sci_name="Chinchilla_lanigera",common_name="Chinchilla"]
+	chlor_sab[&sci_name="Chlorocebus_sabaeus",common_name="Green monkey"]
+	cholo_hof[&sci_name="Choloepus_hoffmanni",common_name="Sloth"]
+	chrys_asi[&sci_name="Chrysochloris_asiatica",common_name="Golden mole"]
+	condy_cri[&sci_name="Condylura_cristata",common_name="Star-nosed mole"]
+	crice_gri[&sci_name="Cricetulus_griseus",common_name="Chinese hamster"]
+	dasyp_nov[&sci_name="Dasypus_novemcinctus",common_name="Armadillo"]
+	daube_mad[&sci_name="Daubentonia_madagascariensis",common_name="Aye-aye"]
+	dipod_ord[&sci_name="Dipodomys_ordii",common_name="Kangaroo rat"]
+	echin_tel[&sci_name="Echinops_telfairi",common_name="Tenrec"]
+	eidol_hel[&sci_name="Eidolon_helvum",common_name="Fruit bat"]
+	eleph_edw[&sci_name="Elephantulus_edwardii",common_name="Elephant shrew"]
+	eptes_fus[&sci_name="Eptesicus_fuscus",common_name="Big brown bat"]
+	equus_cab[&sci_name="Equus_caballus",common_name="Horse"]
+	erina_eur[&sci_name="Erinaceus_europaeus",common_name="Hedgehog"]
+	felis_cat[&sci_name="Felis_catus",common_name="Cat"]
+	galeo_var[&sci_name="Galeopterus_variegatus",common_name="Flying lemur"]
+	goril_gor[&sci_name="Gorilla_gorilla",common_name="Gorilla"]
+	heter_gla[&sci_name="Heterocephalus_glaber",common_name="Naked mole-rat"]
+	homo_sap[&sci_name="Homo_sapiens",common_name="Human"]
+	ictid_tri[&sci_name="Ictidomys_tridecemlineatus",common_name="Squirrel"]
+	jacul_jac[&sci_name="Jaculus_jaculus",common_name="Jerboa"]
+	lepto_wed[&sci_name="Leptonychotes_weddellii",common_name="Weddell seal"]
+	lipot_vex[&sci_name="Lipotes_vexillifer",common_name="Baiji"]
+	loxod_afr[&sci_name="Loxodonta_africana",common_name="Elephant"]
+	macac_fas[&sci_name="Macaca_fascicularis",common_name="Crab-eating macaque"]
+	macac_mul[&sci_name="Macaca_mulatta",common_name="Rhesus macaque"]
+	macro_eug[&sci_name="Notamacropus_eugenii",common_name="Wallaby"]
+	manis_pen[&sci_name="Manis_pentadactyla",common_name="Pangolin"]
+	megad_lyr[&sci_name="Megaderma_lyra",common_name="False vampire bat"]
+	mesoc_aur[&sci_name="Mesocricetus_auratus",common_name="Golden hamster"]
+	micro_mur[&sci_name="Microcebus_murinus",common_name="Mouse lemur"]
+	micro_och[&sci_name="Microtus_ochrogaster",common_name="Prairie vole"]
+	monod_dom[&sci_name="Monodelphis_domestica",common_name="Opossum"]
+	mus_mus[&sci_name="Mus_musculus",common_name="Mouse"]
+	muste_put[&sci_name="Mustela_putorius",common_name="Ferret"]
+	myoti_bra[&sci_name="Myotis_brandtii",common_name="Brandt's bat"]
+	myoti_luc[&sci_name="Myotis_lucifugus",common_name="Little brown bat"]
+	nomas_leu[&sci_name="Nomascus_leucogenys",common_name="Gibbon"]
+	ochot_pri[&sci_name="Ochotona_princeps",common_name="Pika"]
+	octod_deg[&sci_name="Octodon_degus",common_name="Degu"]
+	odobe_ros[&sci_name="Odobenus_rosmarus",common_name="Walrus"]
+	orcin_orc[&sci_name="Orcinus_orca",common_name="Killer whale"]
+	ornit_ana[&sci_name="Ornithorhynchus_anatinus",common_name="Platypus"]
+	oryct_afe[&sci_name="Orycteropus_afer",common_name="Aardvark"]
+	oryct_cun[&sci_name="Oryctolagus_cuniculus",common_name="Rabit"]
+	otole_gar[&sci_name="Otolemur_garnettii",common_name="Galago"]
+	ovis_ari[&sci_name="Ovis_aries",common_name="Sheep"]
+	pan_pan[&sci_name="Pan_paniscus",common_name="Bonobo"]
+	pan_tro[&sci_name="Pan_troglodytes",common_name="Chimpanzee"]
+	panth_hod[&sci_name="Pantholops_hodgsonii",common_name="Antelope"]
+	panth_tig[&sci_name="Panthera_tigris",common_name="Tiger"]
+	papio_anu[&sci_name="Papio_anubis",common_name="Olive baboon"]
+	perom_man[&sci_name="Peromyscus_maniculatus",common_name="Deer mouse"]
+	physe_mac[&sci_name="Physeter_macrocephalus",common_name="Sperm whale"]
+	pongo_abe[&sci_name="Pongo_abelii",common_name="Orangutan "]
+	proca_cap[&sci_name="Procavia_capensis",common_name="Rock hyrax"]
+	ptero_ale[&sci_name="Pteropus_alecto",common_name="Black flying fox"]
+	ptero_par[&sci_name="Pteronotus_parnellii",common_name="Mustached bat"]
+	ptero_vam[&sci_name="Pteropus_vampyrus",common_name="Large flying fox"]
+	rattu_nor[&sci_name="Rattus_norvegicus",common_name="Rat"]
+	rhino_fer[&sci_name="Rhinolophus_ferrumequinum",common_name="Horseshoe bat"]
+	saimi_bol[&sci_name="Saimiri_boliviensis",common_name="Squirrel monkey"]
+	sarco_har[&sci_name="Sarcophilus_harrisii",common_name="Tasmanian devil"]
+	sorex_ara[&sci_name="Sorex_araneus",common_name="Shrew"]
+	sus_scr[&sci_name="Sus_scrofa",common_name="Pig"]
+	tarsi_syr[&sci_name="Tarsius_syrichta",common_name="Tarsier"]
+	trich_man[&sci_name="Trichechus_manatus",common_name="Manatee"]
+	tupai_bel[&sci_name="Tupaia_belangeri",common_name="Northern treeshrew"]
+	tupai_chi[&sci_name="Tupaia_chinensis",common_name="Chinese treeshrew"]
+	tursi_tru[&sci_name="Tursiops_truncatus",common_name="Dolphin"]
+	vicug_pac[&sci_name="Vicugna_pacos",common_name="Alpaca"]
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ((((odobe_ros:1.0,lepto_wed:1.0):0.01557,muste_put:1.0)[&label=62.4]:0.0,(canis_fam:1.0,((felis_cat:1.0,panth_tig:1.0):0.037631,(manis_pen:1.0,((cerat_sim:1.0,equus_cab:1.0):0.018881,((((((((orcin_orc:1.0,tursi_tru:1.0):0.009016,lipot_vex:1.0):0.006514,physe_mac:1.0)[&label=70.1]:8.4E-4,balae_acu:1.0):0.030754,(((capra_hir:1.0,ovis_ari:1.0):0.002231,panth_hod:1.0):0.009322,(bos_tau:1.0,bos_mut:1.0):0.014003):0.049591):0.00818,sus_scr:1.0):0.002755,(camel_fer:1.0,vicug_pac:1.0):0.047386):0.017235,(((((ptero_ale:1.0,ptero_vam:1.0):0.015423,eidol_hel:1.0):0.042746,(rhino_fer:1.0,megad_lyr:1.0):0.005653):0.003914,(((myoti_bra:1.0,myoti_luc:1.0):0.018726,eptes_fus:1.0):0.053914,ptero_par:1.0):0.013627):0.013594,(((erina_eur:1.0,sorex_ara:1.0):0.002592,condy_cri:1.0):0.009215,(((((((chrys_asi:1.0,echin_tel:1.0):0.005662,eleph_edw:1.0)[&label=52.2,!color=#ff0000]:0.0,oryct_afe:1.0)[&label=97.5]:0.001023,((trich_man:1.0,loxod_afr:1.0)[&!color=#ff0000]:0.005471,proca_cap:1.0):0.015205):0.024093,(cholo_hof:1.0,dasyp_nov:1.0):0.02678)[&label=99.4]:0.002532,(((macro_eug:1.0,sarco_har:1.0):0.009025,monod_dom:1.0):0.102123,ornit_ana:1.0):0.125401)[&!rotate=true]:0.006805,((((((((((mesoc_aur:1.0,crice_gri:1.0):0.017203,micro_och:1.0)[&label=91.2]:4.3E-5,perom_man:1.0):0.013408,(rattu_nor:1.0,mus_mus:1.0):0.029783):0.056786,jacul_jac:1.0):0.016349,dipod_ord:1.0):0.006836,(((chinc_lan:1.0,octod_deg:1.0):0.006617,cavia_por:1.0):0.010599,heter_gla:1.0):0.051103):0.001705,ictid_tri:1.0):0.009889,(oryct_cun:1.0,ochot_pri:1.0):0.04099):0.005214,((tupai_chi:1.0,tupai_bel:1.0):0.083262,(galeo_var:1.0,(((daube_mad:1.0,micro_mur:1.0):0.003699,otole_gar:1.0):0.015791,(tarsi_syr:1.0,((saimi_bol:1.0,calli_jac:1.0):0.021957,((((macac_fas:1.0,macac_mul:1.0):0.002353,papio_anu:1.0):0.001507,chlor_sab:1.0):0.01229,(nomas_leu:1.0,(pongo_abe:1.0,(goril_gor:1.0,((pan_tro:1.0,pan_pan:1.0):0.002362,homo_sap:1.0):0.001288):0.004542):0.001405):0.005811):0.011611):0.032772):0.00329):0.005228):0.002721)[&label=65.5]:0.001067):0.006797):0.00843):0.004)[&label=71.7]:0.001135)[&!rotate=true]:0.001419):0.001244):0.022391):0.008372):0.007497):1.0,ailur_mel:1.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=15;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=2;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.3;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="sci_name";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=18;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=true;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,83 @@
+name	sci_name	common_name
+pan_tro	Pan_troglodytes	Chimpanzee
+pan_pan	Pan_paniscus	Bonobo
+homo_sap	Homo_sapiens	Human
+goril_gor	Gorilla_gorilla	Gorilla
+pongo_abe	Pongo_abelii	Orangutan 
+nomas_leu	Nomascus_leucogenys	Gibbon
+macac_fas	Macaca_fascicularis	Crab-eating macaque
+macac_mul	Macaca_mulatta	Rhesus macaque
+papio_anu	Papio_anubis	Olive baboon
+chlor_sab	Chlorocebus_sabaeus	Green monkey
+saimi_bol	Saimiri_boliviensis	Squirrel monkey
+calli_jac	Callithrix_jacchus	Marmoset
+tarsi_syr	Tarsius_syrichta	Tarsier
+daube_mad	Daubentonia_madagascariensis	Aye-aye
+micro_mur	Microcebus_murinus	Mouse lemur
+otole_gar	Otolemur_garnettii	Galago
+galeo_var	Galeopterus_variegatus	Flying lemur
+tupai_chi	Tupaia_chinensis	Chinese treeshrew
+tupai_bel	Tupaia_belangeri	Northern treeshrew
+mesoc_aur	Mesocricetus_auratus	Golden hamster
+crice_gri	Cricetulus_griseus	Chinese hamster
+micro_och	Microtus_ochrogaster	Prairie vole
+perom_man	Peromyscus_maniculatus	Deer mouse
+rattu_nor	Rattus_norvegicus	Rat
+mus_mus	Mus_musculus	Mouse
+jacul_jac	Jaculus_jaculus	Jerboa
+dipod_ord	Dipodomys_ordii	Kangaroo rat
+chinc_lan	Chinchilla_lanigera	Chinchilla
+octod_deg	Octodon_degus	Degu
+cavia_por	Cavia_porcellus	Guinea pig
+heter_gla	Heterocephalus_glaber	Naked mole-rat
+ictid_tri	Ictidomys_tridecemlineatus	Squirrel
+oryct_cun	Oryctolagus_cuniculus	Rabit
+ochot_pri	Ochotona_princeps	Pika
+chrys_asi	Chrysochloris_asiatica	Golden mole
+echin_tel	Echinops_telfairi	Tenrec
+eleph_edw	Elephantulus_edwardii	Elephant shrew
+oryct_afe	Orycteropus_afer	Aardvark
+trich_man	Trichechus_manatus	Manatee
+loxod_afr	Loxodonta_africana	Elephant
+proca_cap	Procavia_capensis	Rock hyrax
+cholo_hof	Choloepus_hoffmanni	Sloth
+dasyp_nov	Dasypus_novemcinctus	Armadillo
+macro_eug	Notamacropus_eugenii	Wallaby
+sarco_har	Sarcophilus_harrisii	Tasmanian devil
+monod_dom	Monodelphis_domestica	Opossum
+ornit_ana	Ornithorhynchus_anatinus	Platypus
+erina_eur	Erinaceus_europaeus	Hedgehog
+sorex_ara	Sorex_araneus	Shrew
+condy_cri	Condylura_cristata	Star-nosed mole
+ptero_ale	Pteropus_alecto	Black flying fox
+ptero_vam	Pteropus_vampyrus	Large flying fox
+eidol_hel	Eidolon_helvum	Fruit bat
+rhino_fer	Rhinolophus_ferrumequinum	Horseshoe bat
+megad_lyr	Megaderma_lyra	False vampire bat
+myoti_bra	Myotis_brandtii	Brandt's bat
+myoti_luc	Myotis_lucifugus	Little brown bat
+eptes_fus	Eptesicus_fuscus	Big brown bat
+ptero_par	Pteronotus_parnellii	Mustached bat
+orcin_orc	Orcinus_orca	Killer whale
+tursi_tru	Tursiops_truncatus	Dolphin
+lipot_vex	Lipotes_vexillifer	Baiji
+physe_mac	Physeter_macrocephalus	Sperm whale
+balae_acu	Balaenoptera_acutorostrata	Minke whale
+capra_hir	Capra_hircus	Goat
+ovis_ari	Ovis_aries	Sheep
+panth_hod	Pantholops_hodgsonii	Antelope
+bos_tau	Bos_taurus	Cow
+bos_mut	Bos_mutus	Yak
+sus_scr	Sus_scrofa	Pig
+camel_fer	Camelus_ferus	Camel
+vicug_pac	Vicugna_pacos	Alpaca
+cerat_sim	Ceratotherium_simum	Rhinoceros
+equus_cab	Equus_caballus	Horse
+manis_pen	Manis_pentadactyla	Pangolin
+felis_cat	Felis_catus	Cat
+panth_tig	Panthera_tigris	Tiger
+canis_fam	Canis_lupus_familiaris	Dog
+odobe_ros	Odobenus_rosmarus	Walrus
+lepto_wed	Leptonychotes_weddellii	Weddell seal
+muste_put	Mustela_putorius	Ferret	
+ailur_mel	Ailuropoda_melanoleuca	Giant panda
