@@ -24,26 +24,8 @@ ggsave("avian_bar_chr.pdf", width = 9, height = 5)
 
 d2$chrbin = factor(d2$chrbin, levels = c(1:3, "4*", 5:10, "11-28*","Z*"))
 d2$rmv = "Kept"
-d2[d2$chrbin %in% c("4*", "11-28*","Z*"),]$rmv = "Fully removed"
-d2[interaction(d2$chrbin, d2$group) %in% c("1.0","1.190","10.0","10.15","2.0","2.145","3.0","3.100","5.0","5.55","7.5","7.30","8.5","8.25","9.0"),]$rmv = "Partially removed"
-d2[interaction(d2$chrbin, d2$group) %in% c("3.105","6.30","7.0","8.0","9.20"),]$rmv = "Fully removed"
-ggplot(aes(y=A+B+C,x=group+2.5,fill=rmv),data=d2)+
-  facet_grid(branch~chrbin,scales="free", space='free_x')+
-  geom_bar(stat="identity")+ # TODO add color
-  theme_classic()+
-  scale_x_continuous(name="Position (Mbp)", breaks = c((0:5)*50), expand = c(0, 0), limits = c(0, NA))+
-  scale_y_continuous(name="CASTER-site score") +
-  scale_fill_manual(breaks = c("Kept", "Partially removed", "Fully removed"),values=c("#AAAAAA", "#E06060", "#FF2222"),name="") + 
-  theme(legend.position="bottom", panel.border = element_rect(fill=NA), panel.spacing.x=unit(0, "lines"), panel.spacing.y=unit(0.5, "lines")) +
-  theme(plot.tag.position = c(0, 1),plot.tag = element_text(size=14,face = "bold"),
-        legend.margin = margin(0,0,0,0,"pt"),legend.box.margin = margin(0,0,0,0,"pt"), 
-        axis.text.y=element_blank(), axis.ticks.y=element_blank())
-ggsave("avian_score_chr.pdf", width = 9, height = 5)
-
-d2$chrbin = factor(d2$chrbin, levels = c(1:3, "4*", 5:10, "11-28*","Z*"))
-d2$rmv = "Kept"
 d2[d2$chrbin %in% c("11-28*","Z*"),]$rmv = "Fully removed"
-d2[interaction(d2$chrbin, d2$group) %in% c("1.0","1.190","10.0","10.15","2.0","2.145","3.0","3.100","4*.10","4*.20","4*.40","4*.55","4*.80","5.0","5.55","7.5","7.30","8.5","8.25","9.0"),]$rmv = "Partially removed"
+d2[interaction(d2$chrbin, d2$group) %in% c("1.0","1.190","10.0","10.15","2.0","2.145","3.0","3.100","4*.10","4*.40","4*.55","4*.80","5.0","5.55","7.5","7.30","8.5","8.25","9.0"),]$rmv = "Partially removed"
 d2[interaction(d2$chrbin, d2$group) %in% c("3.105","4*.0","4*.5","4*.25","4*.30","4*.45","4*.50","4*.85","6.30","7.0","8.0","9.20"),]$rmv = "Fully removed"
 ggplot(aes(y=A+B+C,x=group+2.5,fill=rmv),data=d2)+
   facet_grid(branch~chrbin,scales="free", space='free_x')+
